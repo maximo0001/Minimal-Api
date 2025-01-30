@@ -1,0 +1,34 @@
+# Archivos de compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.vs
+.vscode/
+
+# Configuración de usuario en VS Code
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de dependencias de NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Configuración y secretos (si usas dotnet user-secrets)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Archivos de Docker (si usas contenedores)
+*.dockerignore
+docker-compose.override.yml
+
+# Configuración de EF Core In-Memory (por si alguna vez cambias a SQLite u otro provider)
+Migrations/
